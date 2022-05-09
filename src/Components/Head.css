@@ -1,0 +1,15 @@
+.dis {
+  width: 100%;
+  background: rgb(178, 215, 216);
+  display: flex;
+  /* flex-direction: row;
+
+  justify-content: space-around; */
+}
+.h2 {
+  /* color: rgb(106, 152, 233); */
+  color: #1e2a34;
+}
+.h5 {
+  /* display: block; */
+}
