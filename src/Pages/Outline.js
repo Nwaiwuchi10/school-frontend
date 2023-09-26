@@ -54,6 +54,7 @@ const Outline = () => {
             Click Here To LOgin
           </Button>
         </div>
+        <hr className="hr-2" />
         <div className="skill-fever3">
           <div className="skiller-fa-div">
             <FaUserGraduate />{" "}

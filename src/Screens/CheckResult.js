@@ -36,19 +36,27 @@ const CheckResult = () => {
           </Row>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2022</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2022
+            </Dropdown.Item>
           </Link>
           <Link to="/result1stterm2021">
             {" "}
-            <Dropdown.Item href="#/action-1">2021</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2021
+            </Dropdown.Item>
           </Link>
           <Link to="/JSS1resultlist3">
             {" "}
-            <Dropdown.Item href="#/action-1">2020</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2020
+            </Dropdown.Item>
           </Link>
           <Link to="/JSS1resultlist5">
             {" "}
-            <Dropdown.Item href="#/action-1">2019</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2019
+            </Dropdown.Item>
           </Link>
           <Row>
             <Col className="text-center py-3" style={{ color: "green" }}>
@@ -57,19 +65,27 @@ const CheckResult = () => {
           </Row>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2022</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2022
+            </Dropdown.Item>
           </Link>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2021</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2021
+            </Dropdown.Item>
           </Link>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2020</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2020
+            </Dropdown.Item>
           </Link>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2019</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2019
+            </Dropdown.Item>
           </Link>
           <Row>
             <Col className="text-center py-3" style={{ color: "green" }}>
@@ -78,19 +94,27 @@ const CheckResult = () => {
           </Row>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2022</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2022
+            </Dropdown.Item>
           </Link>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2021</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2021
+            </Dropdown.Item>
           </Link>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2020</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2020
+            </Dropdown.Item>
           </Link>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2019</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2019
+            </Dropdown.Item>
           </Link>
           <Row>
             <Col className="text-center py-3" style={{ color: "green" }}>
@@ -99,19 +123,27 @@ const CheckResult = () => {
           </Row>
           <Link to="/SS1">
             {" "}
-            <Dropdown.Item href="#/action-1">2022</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2022
+            </Dropdown.Item>
           </Link>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2021</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2021
+            </Dropdown.Item>
           </Link>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2020</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2020
+            </Dropdown.Item>
           </Link>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2019</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2019
+            </Dropdown.Item>
           </Link>
           <Row>
             <Col className="text-center py-3" style={{ color: "green" }}>
@@ -120,19 +152,27 @@ const CheckResult = () => {
           </Row>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2022</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2022
+            </Dropdown.Item>
           </Link>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2021</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2021
+            </Dropdown.Item>
           </Link>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2020</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2020
+            </Dropdown.Item>
           </Link>
           <Link to="/JSS1resultlist">
             {" "}
-            <Dropdown.Item href="#/action-1">2019</Dropdown.Item>
+            <Dropdown.Item href="#/action-1" className="text-center py-3">
+              2019
+            </Dropdown.Item>
           </Link>
         </DropdownButton>
       </FormContainer>

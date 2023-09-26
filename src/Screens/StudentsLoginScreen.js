@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import VisibilityIcon from "@material-ui/icons/Visibility";
 import VisibilityOff from "@material-ui/icons/VisibilityOff";
@@ -16,6 +16,7 @@ toast.configure();
 
 const StudentsLoginScreen = () => {
   const navigate = useNavigate();
+  // const redirect = location.search ? location.search.split("=")[1] : "/";
 
   const [registrationNumber, setRegistrationNumber] = useState("");
 
@@ -23,12 +24,12 @@ const StudentsLoginScreen = () => {
 
   const [mode, setMode] = useState("password");
   const [loading, setLoading] = useState(false);
+  // useEffect(() => {
+  //   if (localStorage.getItem("id")) {
+  //     navigate(redirect);
+  //   }
+  // }, [navigate, redirect]);
 
-  useEffect(() => {
-    // if (localStorage.getItem("user-info")) {
-    //   navigate("/homescreen");
-    // }
-  }, []);
   const handleClick = () => {
     if (mode === "password") {
       setMode("text");
@@ -136,6 +137,10 @@ const StudentsLoginScreen = () => {
       <Row className="py-3">
         <Col>
           New User?<Link to="/signup">Signup </Link>{" "}
+          {/* New Customer?{" "}
+          <Link to={redirect ? `/register?redirect=${redirect}` : "/register"}>
+            Signup
+          </Link> */}
         </Col>
       </Row>
     </FormContainer>

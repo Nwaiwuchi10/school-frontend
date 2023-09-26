@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Image } from "react-bootstrap";
+import { Button, Col, Image } from "react-bootstrap";
 import Slide from "react-reveal/Slide";
 import { Link } from "react-router-dom";
 import "./Welcome.css";
@@ -12,7 +12,7 @@ const Welcome = () => {
           <div>
             <h1 className="feed-h2">Welcome To Praise-El Schools</h1>
 
-            <p>
+            <Col className="text-center py-3" style={{ width: "95%" }}>
               Emerald School was established in 1995 starting with Emerald
               Nursery and Primary School, Lagos, Nigeria. Our Aim at Emerald
               School is to be widely acclaimed locally and internationally as a
@@ -20,7 +20,7 @@ const Welcome = () => {
               prepared for tertiary education and life. Our Mission Statement is
               “To produce the total child through a holistic education programme
               that benchmarks best practices while being socially responsible.”
-            </p>
+            </Col>
 
             <Link to="/admissionportal" className="heronav">
               <Button
@@ -50,16 +50,16 @@ const Welcome = () => {
         </div>
       </div>
       <hr />
-      <div className="second">
+      <div className="first">
         <div>
           <div>
             <h1 className="feed-h2">Apply for Admission</h1>
-            <p>
+            <Col className="text-center py-3" style={{ width: "95%" }}>
               As one of the Leading International Schools in Nigeria and Africa,
               we produce a total child through a holistic educational programme
               that benchmarks best practices while being socially responsible.
               Admission into 2021/2022 Academic Session is Ongoing.
-            </p>
+            </Col>
             <Link to="/admissionportal" className="heronav">
               {" "}
               <Button

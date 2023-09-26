@@ -2,13 +2,13 @@
 
 .home-body {
   margin: 0;
+  margin-top: 20px;
 }
 .feed-h2 {
-  font-size: 40px;
+  /* font-size: 40px;
   font-weight: 800;
 
-  color: #1e2a34;
-  margin-top: 5px;
+  margin-top: 5px; */
 }
 .heronav {
   text-decoration: none;
@@ -34,15 +34,15 @@
   ); */
   width: 100%;
   padding: 25px 0;
-  border: 3px solid rgba(255, 0, 0, 0);
+  /* border: 3px solid rgba(255, 0, 0, 0); */
 }
 
 .home-body .first div h1 {
-  /* font-size: 40px;
+  font-size: 40px;
   font-weight: 800;
 
-  color: #1e2a34;
-  margin-top: 5px; */
+  /* color: #1e2a34; */
+  margin-top: 5px;
   font: 40px Gilroy;
   width: 75%;
   margin: 25px auto;
@@ -94,7 +94,7 @@
   }
 
   .home-body .first div p {
-    width: 90%;
+    width: 100%;
     text-align: left;
   }
   .home-body .first div .heroButton {
@@ -104,13 +104,19 @@
 
 @media (max-width: 700px) {
   .home-body .first div h1 {
-    width: 90%;
-    text-align: center;
+    font-weight: 800;
+
+    /* color: #1e2a34; */
+    margin-top: 5px;
+    font: 30px Gilroy;
+    width: 75%;
+    margin: 25px auto;
   }
 
   .home-body .first div p {
-    width: 90%;
-    text-align: left;
+    width: auto;
+
+    text-align: center;
   }
 
   .home-body .first div .heroButton {

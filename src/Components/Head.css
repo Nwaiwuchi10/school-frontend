@@ -7,9 +7,15 @@
   justify-content: space-around; */
 }
 .h2 {
+  display: none;
   /* color: rgb(106, 152, 233); */
   color: #1e2a34;
 }
 .h5 {
   /* display: block; */
+}
+@media (max-width: 700px) {
+  .h2 {
+    width: 0.4px;
+  }
 }

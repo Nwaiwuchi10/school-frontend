@@ -114,7 +114,7 @@ const Header = () => {
                   <NavDropdown.Item
                     href="#action/3.3"
                     className="text-center py-3"
-                    style={{ cursor: "pointer" }}
+                    style={{ cursor: "pointer", width: "auto" }}
                     onClick={ref}
                   >
                     Online Learning

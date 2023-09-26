@@ -14,10 +14,10 @@ const Head = () => {
         </Col>
       </Row>
       <Row>
-        <Col
+        <h3
           className="h2"
           style={{
-            display: "flex",
+            display: "none",
             textAlign: "center",
             marginTop: "auto",
             marginBottom: "auto",
@@ -25,7 +25,7 @@ const Head = () => {
           }}
         >
           PRAISE-EL SCHOOLS
-        </Col>
+        </h3>
       </Row>
       {/* <Row>
         <Col
